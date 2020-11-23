@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD34EE95256C81ED00F5B3D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34EE94256C81ED00F5B3D2 /* AppDelegate.swift */; };
+		AD34EE97256C81ED00F5B3D2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34EE96256C81ED00F5B3D2 /* SceneDelegate.swift */; };
+		AD34EE99256C81ED00F5B3D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34EE98256C81ED00F5B3D2 /* ViewController.swift */; };
+		AD34EE9C256C81ED00F5B3D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD34EE9A256C81ED00F5B3D2 /* Main.storyboard */; };
+		AD34EE9E256C81EF00F5B3D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD34EE9D256C81EF00F5B3D2 /* Assets.xcassets */; };
+		AD34EEA1256C81F000F5B3D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD34EE9F256C81F000F5B3D2 /* LaunchScreen.storyboard */; };
+		AD34EEAC256C81F000F5B3D2 /* PlaetoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34EEAB256C81F000F5B3D2 /* PlaetoTests.swift */; };
+		AD34EEB7256C81F000F5B3D2 /* PlaetoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD34EEB6256C81F000F5B3D2 /* PlaetoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD34EEA8256C81F000F5B3D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD34EE89256C81ED00F5B3D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD34EE90256C81ED00F5B3D2;
+			remoteInfo = Plaeto;
+		};
+		AD34EEB3256C81F000F5B3D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD34EE89256C81ED00F5B3D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD34EE90256C81ED00F5B3D2;
+			remoteInfo = Plaeto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD34EE91256C81ED00F5B3D2 /* Plaeto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plaeto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD34EE94256C81ED00F5B3D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD34EE96256C81ED00F5B3D2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD34EE98256C81ED00F5B3D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD34EE9B256C81ED00F5B3D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD34EE9D256C81EF00F5B3D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD34EEA0256C81F000F5B3D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD34EEA2256C81F000F5B3D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD34EEA7256C81F000F5B3D2 /* PlaetoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaetoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD34EEAB256C81F000F5B3D2 /* PlaetoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaetoTests.swift; sourceTree = "<group>"; };
+		AD34EEAD256C81F000F5B3D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD34EEB2256C81F000F5B3D2 /* PlaetoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlaetoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD34EEB6256C81F000F5B3D2 /* PlaetoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaetoUITests.swift; sourceTree = "<group>"; };
+		AD34EEB8256C81F000F5B3D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD34EE8E256C81ED00F5B3D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD34EEA4256C81F000F5B3D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD34EEAF256C81F000F5B3D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD34EE88256C81ED00F5B3D2 = {
+			isa = PBXGroup;
+			children = (
+				AD34EE93256C81ED00F5B3D2 /* Plaeto */,
+				AD34EEAA256C81F000F5B3D2 /* PlaetoTests */,
+				AD34EEB5256C81F000F5B3D2 /* PlaetoUITests */,
+				AD34EE92256C81ED00F5B3D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD34EE92256C81ED00F5B3D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD34EE91256C81ED00F5B3D2 /* Plaeto.app */,
+				AD34EEA7256C81F000F5B3D2 /* PlaetoTests.xctest */,
+				AD34EEB2256C81F000F5B3D2 /* PlaetoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD34EE93256C81ED00F5B3D2 /* Plaeto */ = {
+			isa = PBXGroup;
+			children = (
+				AD34EE94256C81ED00F5B3D2 /* AppDelegate.swift */,
+				AD34EE96256C81ED00F5B3D2 /* SceneDelegate.swift */,
+				AD34EE98256C81ED00F5B3D2 /* ViewController.swift */,
+				AD34EE9A256C81ED00F5B3D2 /* Main.storyboard */,
+				AD34EE9D256C81EF00F5B3D2 /* Assets.xcassets */,
+				AD34EE9F256C81F000F5B3D2 /* LaunchScreen.storyboard */,
+				AD34EEA2256C81F000F5B3D2 /* Info.plist */,
+			);
+			path = Plaeto;
+			sourceTree = "<group>";
+		};
+		AD34EEAA256C81F000F5B3D2 /* PlaetoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD34EEAB256C81F000F5B3D2 /* PlaetoTests.swift */,
+				AD34EEAD256C81F000F5B3D2 /* Info.plist */,
+			);
+			path = PlaetoTests;
+			sourceTree = "<group>";
+		};
+		AD34EEB5256C81F000F5B3D2 /* PlaetoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD34EEB6256C81F000F5B3D2 /* PlaetoUITests.swift */,
+				AD34EEB8256C81F000F5B3D2 /* Info.plist */,
+			);
+			path = PlaetoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD34EE90256C81ED00F5B3D2 /* Plaeto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD34EEBB256C81F000F5B3D2 /* Build configuration list for PBXNativeTarget "Plaeto" */;
+			buildPhases = (
+				AD34EE8D256C81ED00F5B3D2 /* Sources */,
+				AD34EE8E256C81ED00F5B3D2 /* Frameworks */,
+				AD34EE8F256C81ED00F5B3D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Plaeto;
+			productName = Plaeto;
+			productReference = AD34EE91256C81ED00F5B3D2 /* Plaeto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD34EEA6256C81F000F5B3D2 /* PlaetoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD34EEBE256C81F000F5B3D2 /* Build configuration list for PBXNativeTarget "PlaetoTests" */;
+			buildPhases = (
+				AD34EEA3256C81F000F5B3D2 /* Sources */,
+				AD34EEA4256C81F000F5B3D2 /* Frameworks */,
+				AD34EEA5256C81F000F5B3D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD34EEA9256C81F000F5B3D2 /* PBXTargetDependency */,
+			);
+			name = PlaetoTests;
+			productName = PlaetoTests;
+			productReference = AD34EEA7256C81F000F5B3D2 /* PlaetoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD34EEB1256C81F000F5B3D2 /* PlaetoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD34EEC1256C81F000F5B3D2 /* Build configuration list for PBXNativeTarget "PlaetoUITests" */;
+			buildPhases = (
+				AD34EEAE256C81F000F5B3D2 /* Sources */,
+				AD34EEAF256C81F000F5B3D2 /* Frameworks */,
+				AD34EEB0256C81F000F5B3D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD34EEB4256C81F000F5B3D2 /* PBXTargetDependency */,
+			);
+			name = PlaetoUITests;
+			productName = PlaetoUITests;
+			productReference = AD34EEB2256C81F000F5B3D2 /* PlaetoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD34EE89256C81ED00F5B3D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					AD34EE90256C81ED00F5B3D2 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					AD34EEA6256C81F000F5B3D2 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = AD34EE90256C81ED00F5B3D2;
+					};
+					AD34EEB1256C81F000F5B3D2 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = AD34EE90256C81ED00F5B3D2;
+					};
+				};
+			};
+			buildConfigurationList = AD34EE8C256C81ED00F5B3D2 /* Build configuration list for PBXProject "Plaeto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD34EE88256C81ED00F5B3D2;
+			productRefGroup = AD34EE92256C81ED00F5B3D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD34EE90256C81ED00F5B3D2 /* Plaeto */,
+				AD34EEA6256C81F000F5B3D2 /* PlaetoTests */,
+				AD34EEB1256C81F000F5B3D2 /* PlaetoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD34EE8F256C81ED00F5B3D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD34EEA1256C81F000F5B3D2 /* LaunchScreen.storyboard in Resources */,
+				AD34EE9E256C81EF00F5B3D2 /* Assets.xcassets in Resources */,
+				AD34EE9C256C81ED00F5B3D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD34EEA5256C81F000F5B3D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD34EEB0256C81F000F5B3D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD34EE8D256C81ED00F5B3D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD34EE99256C81ED00F5B3D2 /* ViewController.swift in Sources */,
+				AD34EE95256C81ED00F5B3D2 /* AppDelegate.swift in Sources */,
+				AD34EE97256C81ED00F5B3D2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD34EEA3256C81F000F5B3D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD34EEAC256C81F000F5B3D2 /* PlaetoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD34EEAE256C81F000F5B3D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD34EEB7256C81F000F5B3D2 /* PlaetoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD34EEA9256C81F000F5B3D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD34EE90256C81ED00F5B3D2 /* Plaeto */;
+			targetProxy = AD34EEA8256C81F000F5B3D2 /* PBXContainerItemProxy */;
+		};
+		AD34EEB4256C81F000F5B3D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD34EE90256C81ED00F5B3D2 /* Plaeto */;
+			targetProxy = AD34EEB3256C81F000F5B3D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD34EE9A256C81ED00F5B3D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD34EE9B256C81ED00F5B3D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD34EE9F256C81F000F5B3D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD34EEA0256C81F000F5B3D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD34EEB9256C81F000F5B3D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD34EEBA256C81F000F5B3D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD34EEBC256C81F000F5B3D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NQMQXCFUMM;
+				INFOPLIST_FILE = Plaeto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.plaeto.Plaeto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD34EEBD256C81F000F5B3D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NQMQXCFUMM;
+				INFOPLIST_FILE = Plaeto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.plaeto.Plaeto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD34EEBF256C81F000F5B3D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NQMQXCFUMM;
+				INFOPLIST_FILE = PlaetoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.plaeto.PlaetoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plaeto.app/Plaeto";
+			};
+			name = Debug;
+		};
+		AD34EEC0256C81F000F5B3D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NQMQXCFUMM;
+				INFOPLIST_FILE = PlaetoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.plaeto.PlaetoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Plaeto.app/Plaeto";
+			};
+			name = Release;
+		};
+		AD34EEC2256C81F000F5B3D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NQMQXCFUMM;
+				INFOPLIST_FILE = PlaetoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.plaeto.PlaetoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Plaeto;
+			};
+			name = Debug;
+		};
+		AD34EEC3256C81F000F5B3D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NQMQXCFUMM;
+				INFOPLIST_FILE = PlaetoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.plaeto.PlaetoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Plaeto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD34EE8C256C81ED00F5B3D2 /* Build configuration list for PBXProject "Plaeto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD34EEB9256C81F000F5B3D2 /* Debug */,
+				AD34EEBA256C81F000F5B3D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD34EEBB256C81F000F5B3D2 /* Build configuration list for PBXNativeTarget "Plaeto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD34EEBC256C81F000F5B3D2 /* Debug */,
+				AD34EEBD256C81F000F5B3D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD34EEBE256C81F000F5B3D2 /* Build configuration list for PBXNativeTarget "PlaetoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD34EEBF256C81F000F5B3D2 /* Debug */,
+				AD34EEC0256C81F000F5B3D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD34EEC1256C81F000F5B3D2 /* Build configuration list for PBXNativeTarget "PlaetoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD34EEC2256C81F000F5B3D2 /* Debug */,
+				AD34EEC3256C81F000F5B3D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD34EE89256C81ED00F5B3D2 /* Project object */;
+}
